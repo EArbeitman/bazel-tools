@@ -11,13 +11,13 @@ _PREFIX = (
 
 _ARCHIVE_TYPE = ["zip", "tar.gz"]
 
-_VERSION = "1.46.2"
+_VERSION = "1.51.2"
 _CHECKSUMS = {
     "windows-386": "b48a421ec12a43f8fc8f977b9cf7d4a1ea1c4b97f803a238de7d3ce4ab23a84b",
     "windows-amd64": "604acc1378a566abb0eac799362f3a37b7fcb5fa2268aeb2d5d954c829367301",
     "linux-amd64": "242cd4f2d6ac0556e315192e8555784d13da5d1874e51304711570769c4f2b9b",
     "linux-386": "461a60016d516c69d406dc3e2d4957b722dbe684b7085dfac4802d0f84409e27",
-    "darwin-amd64": "658078aaaf7608693f37c4cf1380b2af418ab8b2d23fdb33e7e2d4339328590e",
+    "darwin-amd64": "0549cbaa2df451cf3a2011a9d73a9cb127784d26749d9cd14c9f4818af104d44",
 }
 
 def _golangcilint_download_impl(ctx):
